@@ -1,0 +1,90 @@
+body {
+  background-color: beige;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(111, 104, 104);
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  color: cornflowerblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #78b47a;
+  background-color: rgb(37, 125, 163);
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 14 px rgba(0, 0, 0, alp.1ha);
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 18px;
+}
+
+#img-circle {
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 50%;
+}
+
+.button-red {
+  text-decoration: none;
+  background-color: #78b47a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li > i:hover {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+  color: #78b47a;
+  background-color: rgb(237, 240, 242);
+}
+
+@media (max-width: 960px) {
+  #img-circle {
+    width:80%;
+  }
+}
+
+@media (max-width: 720px) {
+  #img-circle {
+    width:70%;
+  }
+}
+
+@media (max-width: 540px) {
+  #img-circle {
+    width:50%;
+
+  }
+}
